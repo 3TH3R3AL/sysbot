@@ -1,7 +1,5 @@
 import speech_recognition
-import pyttsx3
 import subprocess
-
 
 recognizer = speech_recognition.Recognizer()
 
