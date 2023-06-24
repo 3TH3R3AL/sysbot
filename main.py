@@ -19,7 +19,7 @@ while True:
         with speech_recognition.Microphone() as mic:
             
             
-            recognizer.adjust_for_ambient_noise(mic,duration=0.2)
+            recognizer.adjust_for_ambient_noise(mic)
             print("Begin Speaking")
             audio = recognizer.listen(mic)
             text = recognizer.recognize_google(audio)
